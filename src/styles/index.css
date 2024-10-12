@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #eaeaea;
+}
+
+.header-background {
+    position: relative;
+    height: 300px;
+    background: url('../assets/Background2.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px);
+}
+
+.header-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-connexion a {
+    background-color: #ab47bc;
+    padding: 10px 20px;
+}
+
+.nav-connexion a:hover {
+    background-color: #8e24aa;
+}
+
+.nav-boutique a {
+    background-color: #ffeb3b;
+    padding: 10px 20px;
+}
+
+.nav-boutique a:hover {
+    background-color: #fbc02d;
+}
+
+.section {
+    padding: 80px 20px;
+    margin: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #eaeaea;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.about-section {
+    padding: 80px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.about-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

@@ -1,0 +1,78 @@
+/* Home.css */
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: #f1f1f1;
+}
+
+.post {
+    background-color: #2a2a2a;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header h2 {
+    font-size: 1.5em;
+    color: #f1c40f;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #bfbfbf;
+}
+
+.post-meta span {
+    margin-right: 10px;
+}
+
+.post-meta .icon {
+    margin-right: 5px;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.post-content {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.post-content p {
+    margin: 0;
+    font-size: 0.9em; 
+}
+
+.post-footer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.post-footer button {
+    background-color: #f1c40f;
+    border: none;
+    color: #1e1e1e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-footer button:hover {
+    background-color: #d4ac0d;
+}

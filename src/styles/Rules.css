@@ -1,0 +1,23 @@
+.rules-section {
+    padding: 80px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.rules-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.rules-list {
+    font-size: 1.2em;
+    line-height: 1.6;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.rules-list li {
+    margin-bottom: 10px;
+}
