@@ -30,4 +30,4 @@ Cette boutique en ligne inclut plusieurs fonctionnalités clés :
 
 ## Collaborateurs
 
-- **SteveKSteve**
+- **Steveksteve**
